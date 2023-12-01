@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li class="navbarItem">
+          <a href="index.html">Google Search</a>
+        </li>
+        <li class="navbarItem">
+          <a href="image.html">Image Search</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="advancedTitle">Advanced Search</h1>
+    <div class="line"></div>
+    <div class="containerAdvancedSearch">
+        <h2 class="advancedSubTitle">Find pages with...</h2>
+        <form action="https://google.com/search">
+            <div class="inputValuesContainer">
+            <div class="left">
+                <p>All these words:</p>
+            </div>
+            <div class="right">
+                <input class="formInput" type="text" name="as_q">
+            </div>
+        </div>
+        <div class="inputValuesContainer">
+            <div class="left">
+                <p>This exact word or phrase:</p>
+            </div>
+            <div class="right">
+                <input class="formInput" type="text" name="as_epq">
+            </div>
+        </div>
+        <div class="inputValuesContainer">
+            <div class="left">
+                <p>Any of these words:</p>
+            </div>
+            <div class="right">
+                <input class="formInput" type="text" name="as_oq">
+            </div>
+        </div>
+        <div class="inputValuesContainer">
+            <div class="left">
+                <p>None of these words:</p>
+            </div>
+            <div class="right">
+                <input class="formInput" type="text" name="as_eq">
+            </div>
+        </div>
+        <div class="inputSubmitButton">
+            <input type="submit" value="Advanced Search" class="inputAdvancedSubmit">
+        </div>
+        </form>
+    </div>
+    </body>
+  </html>

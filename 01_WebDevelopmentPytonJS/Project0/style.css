@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbarItem {
+    margin: 10px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+a:active {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText {
+    display: flex;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.inputSubmit {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.advancedTitle {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.advancedSubTitle {
+    font-size: 16px;
+    color: #333333;
+}
+
+.containerAdvancedSearch {
+    margin: 50px;
+}
+
+.inputValuesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.left {
+    width: 200px;
+}
+
+.formInput {
+    width: 385px;
+}
+
+p {
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.inputSubmitButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 30px;
+}
+
+.inputAdvancedSubmit {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
